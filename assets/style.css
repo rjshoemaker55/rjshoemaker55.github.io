@@ -1,0 +1,120 @@
+body {
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  background: #d3e3fc;
+}
+
+#headerBar {
+  width: 960px;
+  height: 110px;
+  background-color: white5;
+  margin: 0px  auto;
+}
+
+#headerBarWrap {
+  background-color: white;
+  width: 100%;
+  height: 110px;
+  border-bottom-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+}
+
+h1 {
+  background: #00887a;
+  font-size: 35px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  float: left;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  margin-top: 35px;
+}
+
+#mainLogo {
+  color: #edf5e1;
+  text-decoration: none;
+}
+
+#nav {
+  list-style-type: none;
+  margin-left: 665px;
+  padding: 0;
+  font-size: 18px;
+  color: #05386b
+}
+
+nav li {
+  float: left;
+  margin-top: 35px;
+}
+
+nav li+li {
+  border-left: 1px solid #ccc;
+}
+
+nav a {
+  display: block;
+  padding: 28px 14px;
+  color: #777;
+  text-decoration: none;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-align: center;
+}
+
+nav a:hover {
+  font-weight: bold;
+  background-color: #f4f4f4;
+}
+
+#aboutMe {
+  clear: both;
+  width: 910px;
+  margin: 30px auto;
+  background-color:#fff;
+  padding: 25px;
+  border: solid #ccc 1px;
+}
+
+
+h2 {
+  font-size: 35px;
+  color: #00887a;
+  font-family: 'Georgia', Times, 'Times New Roman;', serif;
+  padding: 10px 0px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #efefef;
+}
+
+img {
+  margin-top: 20px;
+  margin-right: 25px;
+  float: left;
+}
+
+#aboutPara {
+  line-height: 2;
+  color: #777;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+footer {
+  color: lightgray;
+  background-color: #666;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align:center;
+  border-top: 8px solid #00887a;
+  position: absolute;
+  bottom: 0px;
+}
